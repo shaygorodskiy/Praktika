@@ -1,0 +1,6 @@
+function detect_data_type(value)
+{
+var dtype = [Number], x, len;
+    return typeof value;
+}
+console.log(detect_data_type(20));
