@@ -1,0 +1,11 @@
+function convertArrtoObj(arr){
+
+    obj = Object.assign({}, arr);
+
+    return obj
+
+}
+
+a = [2, null, 'start', undefined];
+
+alert(convertArrtoObj(a));
